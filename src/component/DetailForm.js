@@ -36,13 +36,13 @@ const DetailForm = () => {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="title" className="form-label">
+          <label htmlFor="name" className="form-label">
             Name
           </label>
           <input
             className="form-control"
             type="text"
-            name="title"
+            name="name"
             placeholder="Enter Name"
             value={name}
             onChange={onInputChange}
