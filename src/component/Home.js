@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="container my-3 ">
         <NavLink to="/detail-form">
-          <button type="button" className="btn btn-primary">
+          <button type="button" className="btn btn-primary mb-3">
             Add Contact
           </button>
         </NavLink>
